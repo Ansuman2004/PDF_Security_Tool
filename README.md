@@ -1,7 +1,8 @@
 # PDF_Security_Tool
 This project, titled "PDF Security Tool", is developed as part of a cybersecurity internship and focuses on the dual aspects of document protection and ethical penetration testing. The tool provides two core functionalities: encrypting PDF files with user-defined passwords to ensure data confidentiality, and cracking password-protected PDFs .
 
-***Abstract***
+***Abstract:***
+
 This project, titled "PDF Security Tool", is developed as part of a cybersecurity 
 internship and focuses on the dual aspects of document protection and ethical 
 penetration testing. The tool provides two core functionalities: encrypting PDF files 
@@ -14,6 +15,7 @@ enhancing user interaction. Overall, the project serves as an educational tool f
 core cybersecurity concepts in a hands-on manner. 
 
 ***1. Introduction:***
+
 In today’s digital era, sensitive documents are often shared and stored in PDF format 
 due to its platform independence and professional presentation. However, the security 
 of these documents is often compromised due to weak or no password protection. 
@@ -29,6 +31,7 @@ educates users on how weak passwords can be easily guessed or cracked using
 automated tools.  
 
 ***2. Objectives:*** 
+
 The primary objective of this project is to develop a Python-based tool that 
 demonstrates fundamental cybersecurity principles related to document protection, 
 specifically for PDF files. The tool is designed with the following key goals: 
@@ -48,10 +51,12 @@ equipping learners with the ability to develop, analyze, and improve tools that 
 digital safety.
 
 ***3. Tools Used:***
+
 > Language: Python 3 
 > Libraries: PyPDF2, pikepdf, tqdm
 
 ***4. Features:*** 
+
 The PDF Security Tool is designed to offer both document protection and penetration 
 testing capabilities through a simple and interactive command-line interface. Its main 
 features include: 
@@ -79,6 +84,7 @@ These features make the tool a practical and educational resource for understand
 PDF security mechanisms and how attackers might exploit weak protections.
 
 ***5. Methodology:***
+
 The development of the PDF Security Tool follows a structured approach to implement 
 both encryption and ethical password-cracking functionalities. The methodology 
 combines cybersecurity practices with software engineering principles, as detailed 
@@ -118,6 +124,7 @@ charset, and length.
 3. Ensured decrypted files are saved and usable.
    
 ***6. Results and Testing***
+
 To validate the effectiveness and accuracy of the PDF Security Tool, multiple test 
 scenarios were conducted using sample PDF files protected with known passwords. The 
 tool was evaluated for both encryption and password-cracking functionalities, with the 
@@ -146,6 +153,7 @@ that encryption was applied correctly using the PyPDF2 library.
 ![image](https://github.com/user-attachments/assets/458b8303-81a7-4234-a2c5-dc7f92f3a749)
 
 ***Conclusion:***
+
 The PDF Security Tool developed during this internship successfully demonstrates the application of cybersecurity concepts in real-world scenarios involving document protection. The tool provides dual functionality — enabling users to encrypt PDFs for confidentiality and ethically crack password-protected PDFs to understand vulnerabilities associated with weak password usage.
 Through this project, the importance of strong encryption practices and the dangers of using predictable or short passwords have been effectively highlighted. The implementation of both wordlist-based and brute-force attacks, along with a real-time progress visualization, makes the tool not only functional but also educational and engaging.
 This project bridges theory with hands-on practice, making it a valuable resource for both learners and professionals in the cybersecurity domain. It enhances understanding of password security, PDF protection mechanisms, and ethical hacking strategies in a controlled and responsible manner.
