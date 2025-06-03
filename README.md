@@ -89,13 +89,15 @@ The development of the PDF Security Tool follows a structured approach to implem
 both encryption and ethical password-cracking functionalities. The methodology 
 combines cybersecurity practices with software engineering principles, as detailed 
 below: 
+
 5.1 Requirements Gathering 
  1. Identify the need for a dual-purpose tool capable of both protecting and ethically 
 testing PDF security. 
  2. Select appropriate Python libraries: 
   • PyPDF2 for encryption. 
   • pikepdf for secure PDF opening and password cracking. 
-  • tqdm for real-time progress visualization. 
+  • tqdm for real-time progress visualization.
+
 5.2 System Design 
  1. Create a menu-driven command-line interface allowing users to choose 
 operations. 
@@ -106,7 +108,8 @@ encrypts the PDF.
     > Wordlist-based cracking.
    
     > Brute-force password generation using character sets and length 
-constraints. 
+constraints.
+    
 5.3 Implementation 
 1. Encryption: 
  • Uses PyPDF2.PdfReader and PdfWriter to apply password protection. 
@@ -114,11 +117,13 @@ constraints.
  • Uses pikepdf.open() within a try-except block to test passwords. 
  • Displays attempt progress using tqdm. 
  • For brute-force, generates password combinations dynamically using 
-itertools.product. 
+itertools.product.
+
 5.4 User Interaction 
  1. Prompts guide users through file selection, password entry, cracking method, 
 charset, and length. 
- 2. Displays results with clear messages indicating success or failure. 
+ 3. Displays results with clear messages indicating success or failure.
+    
 5.5 Testing and Validation 
  1. Tests performed on multiple PDFs with known passwords. 
  2. Verified functionality of both cracking methods. 
